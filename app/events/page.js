@@ -342,18 +342,18 @@ export default function EventsPage() {
           {UPCOMING_EVENTS.map((e, i) => (
             <Reveal key={e.title + e.day + e.month} delay={i * 80} className={styles.row}>
               <div className={styles.rowLeft}>
+                {e.image_url && (
+                  <div className={styles.thumbnail}>
+                    <img src={e.image_url} alt={e.title} loading="lazy" />
+                  </div>
+                )}
+
                 <div className={styles.date}>
                   <div className={styles.dateDay}>{e.day}</div>
                   <div className={styles.dateMonth}>{e.month}</div>
                   <div className={styles.dateYear}>{e.year}</div>
                 </div>
                 <div className={styles.divider} />
-                
-                {e.image_url && (
-                  <div className={styles.thumbnail}>
-                    <img src={e.image_url} alt={e.title} loading="lazy" />
-                  </div>
-                )}
                 
                 <div className={styles.details}>
                   <div className={styles.tag} style={{ color: e.tagColor }}>
@@ -403,18 +403,18 @@ export default function EventsPage() {
             {PAST_EVENTS.map((e, i) => (
               <Reveal key={e.title + e.day + e.month + e.year} delay={i * 40} className={styles.pastRow}>
                 <div className={styles.rowLeft}>
+                  {e.image_url && (
+                    <div className={styles.thumbnail}>
+                      <img src={e.image_url} alt={e.title} loading="lazy" />
+                    </div>
+                  )}
+
                   <div className={styles.date}>
                     <div className={styles.dateDay}>{e.day}</div>
                     <div className={styles.dateMonth}>{e.month}</div>
                     <div className={styles.dateYear}>{e.year}</div>
                   </div>
                   <div className={styles.divider} />
-                  
-                  {e.image_url && (
-                    <div className={styles.thumbnail}>
-                      <img src={e.image_url} alt={e.title} loading="lazy" />
-                    </div>
-                  )}
                   
                   <div className={styles.details}>
                     <div className={styles.tag}>{e.tag}</div>
