@@ -19,7 +19,7 @@ const UPCOMING_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "Over 1.5 hours, we will move through gentle breathwork, energy healing, and chakra clearing to melt away your stress",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782384709458-YT906ITSXUPAIUURSTF0/1.+Inner+Healing+Sanctuary.jpg",
+    image_url: "/images/events/inner-healing-sanctuary-small-group-session-8-22-j-wednesday-8-july-2026.jpg",
   },
   {
     day: "10",
@@ -32,7 +32,7 @@ const UPCOMING_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "Join our sound bath meditation under the night Sky. Step away from the noise of the week and end your Friday by allowing resonant healing frequencies to wash away accumulated stress. In this immersive acoustic journey, we use therapeutic sound to create vibrations that work on a cellular level. These frequencies help to guide your brainwaves into a deep, restorative state, effortlessly quieting the conscious mind and allowing the physical body to profoundly relax. Set under the canopy of the night sky, this session is a beautiful opportunity to restore your energetic balance, harmonise your nervous system, and step into the weekend feeling completely reset and aligned. The Benefits of this Practice Include: Cellular Harmony: Utilises resonant frequencies to restore balance and harmony on a cellular and energetic level. Deep Physical Relaxation: releases tension built up throughout the week. Quiet Mind: Slows brainwave activity to quiet the constant stream of conscious thoughts and mental chatter. Improved Sleep Quality: Promotes a state of profound relaxation that carries over into deeper, more restorative sleep.",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782386546981-MKEAUA5XZMN21CHZ7LWU/2.+Sound+Bath+10+July.jpg",
+    image_url: "/images/events/sound-bath-meditation-under-the-night-sky-friday-10-july-2026.jpg",
   },
   {
     day: "12",
@@ -45,7 +45,7 @@ const UPCOMING_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "Curious about Yin Yoga but not sure where to start? 🧘‍♀️ This Sunday, join me for a beginner-friendly Yin Yoga Trial class!",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782386115573-LQ7H06ARRM8BJ4D9SOVW/3.+Yin+Yoga+12+July+%281%29.jpg",
+    image_url: "/images/events/gentle-yin-yoga-trial-class-beginner-friendly-sunday-12-july-2026.jpg",
   },
   {
     day: "18",
@@ -58,7 +58,7 @@ const UPCOMING_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "Wash away the stress of your busy week with a deeply relaxing Sound Bath. If you find it hard to meditate in silence because your mind is always racing, a sound bath is the perfect solution. You do not need any experience at all, your only job is to lie down, close your eyes, and let your body rest.",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782388771799-CV4CW2Y7UL1AYP816JMR/Soundbath+18+July+preston.jpg",
+    image_url: "/images/events/sound-bath-meditation-at-high-st-holistic-preston-saturday-18-july-2026.jpg",
   },
   {
     day: "26",
@@ -71,7 +71,7 @@ const UPCOMING_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "Pause, reconnect, and nurture your inner self. Join our intimate women's circle to step out of the daily rush. Through guided meditation and restorative mindfulness practices, we will create a safe sanctuary for you to slow down, regulate, and cultivate profound self-love. Give yourself permission to just be .",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782386751656-UCF0KCBNU5PGVSZ42UGX/5.+Women%E2%80%99s+Circle+26+July.jpg",
+    image_url: "/images/events/women-s-circle-for-mindfulness-self-love-sunday-26-july-2026.jpg",
   },
   {
     day: "29",
@@ -84,7 +84,7 @@ const UPCOMING_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782871548415-MTW595R3WI5WC6IRYF5P/Soulflow+Peninsula+Sat+29+August.jpg",
+    image_url: "/images/events/stillness-reset-winter-day-retreat-at-peninsula-ho-saturday-29-august-2026.jpg",
   },
   {
     day: "03",
@@ -97,7 +97,7 @@ const UPCOMING_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "Reconnect. Rejuvenate. Flow. Escape to the spiritual heart of Ubud for a 6-day immersive journey of self-discovery. Soulflow is designed for anyone seeking to hit \"reset,\" heal, and find balance amidst lush rice paddies and tropical greenery. Whether you are looking for deep relaxation, spiritual growth, or simply a break from the noise of daily life, this all-inclusive retreat provides the perfect sanctuary to nourish your mind, body, and soul.",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1782810691297-NZI28ZM69UDWPQ61FD4A/SOULFLOW+new.jpeg",
+    image_url: "/images/events/soulflow-yoga-healing-retreat-ubud-bali-sat-3-oct-2026.jpeg",
   },
 ];
 
@@ -113,7 +113,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1777679522553-3D4RSD7UXN6RZRII3FFL/Kundalini+Revive+Session+April+Melbourne+%28Instagram+Post+%2845%29%29+%281%29.jpg",
+    image_url: "/images/events/kundalini-revive-energy-healing-sunday-28-june-2026.jpg",
   },
   {
     day: "21",
@@ -126,7 +126,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "Pause, reconnect, and nurture your inner self. Join our intimate women's circle to step out of the daily rush. Through guided meditation and restorative mindfulness practices, we will create a safe sanctuary for you to slow down, regulate, and cultivate profound self-love. Give yourself permission to just be .",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1777289862182-NYZWKIMEUQ1UFOMNPA36/Women%E2%80%99s+%28Instagram+Post+%2845%29%29.jpg",
+    image_url: "/images/events/women-s-circle-for-mindfulness-self-love-sunday-21-june-2026.jpg",
   },
   {
     day: "14",
@@ -139,7 +139,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "A 3-hour immersion into the emotional and physical landscapes of menopause. Move beyond \"just enduring\" the shifts and learn to navigate this transition with practical, body-based tools for regulation and ease.",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1774433402493-J6UR09W6LACAKKYIFIC5/Quantum+radiance+2.png",
+    image_url: "/images/events/rescheduled-new-date-coming-soon-sunday-14-june-2026.png",
   },
   {
     day: "12",
@@ -152,7 +152,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "Join our sound bath meditation under the night Sky. Step away from the noise of the week and end your Friday by allowing resonant healing frequencies to wash away accumulated stress. In this immersive acoustic journey, we use therapeutic sound to create vibrations that work on a cellular level. These frequencies help to guide your brainwaves into a deep, restorative state, effortlessly quieting the conscious mind and allowing the physical body to profoundly relax. Set under the canopy of the night sky, this session is a beautiful opportunity to restore your energetic balance, harmonise your nervous system, and step into the weekend feeling completely reset and aligned. The Benefits of this Practice Include: Cellular Harmony: Utilises resonant frequencies to restore balance and harmony on a cellular and energetic level. Deep Physical Relaxation: releases tension built up throughout the week. Quiet Mind: Slows brainwave activity to quiet the constant stream of conscious thoughts and mental chatter. Improved Sleep Quality: Promotes a state of profound relaxation that carries over into deeper, more restorative sleep.",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1778323200602-WG6ST30IZLHJD7T45P7O/Sound+Bath+.png",
+    image_url: "/images/events/sound-bath-meditation-under-the-night-sky-friday-12-june-2026.png",
   },
   {
     day: "07",
@@ -165,7 +165,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "Breathwork is a powerful yet simple practice that uses your breath to reset your body, calm your mind, and release stored stress and emotions. The ancient practice of Breathwork have the power to assist in an individual’s personal evolution and can lead deeper states of wisdom. Join me at the Stillness Reset Co studio in Glen Waverley for a profound morning of somatic release and energetic alignment. The Benefits of this Practice Include: 🤍 Reduce stress and anxiety 🤍 Improve focus and mental clarity 🤍 Boost energy naturally Because breathwork is such a deeply transformative practice. Please be aware that these sessions can evoke deep physiological and emotional responses. This is simply your body's natural way of clearing out stagnant energy, unprocessed feelings, and stored tension. However, for your safety, we strongly recommend seeking clearance from a healthcare professional before deciding to purchase a ticket if you fall under any of the following categories: * Cardiovascular conditions * Personal history of heart attacks, high blood pressure, or angina * Glaucoma or retinal detachment * Recent serious injury or surgery * Any condition that requires you to take medication to assist with breathing or lowering blood pressure * Personal history of PTSD, panic attacks, or psychosis * Personal history of aneurysms (or family history) * You are currently in the 2nd or 3rd trimester of pregnancy or are breastfeeding",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1778322728582-RVX7JYIQO4TF0FNQRD2E/Empowering+Breathwork.jpg",
+    image_url: "/images/events/empowering-breathwork-a-somatic-journey-to-release-sunday-7-june-2026.jpg",
   },
   {
     day: "06",
@@ -178,7 +178,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: true,
     excerpt: "",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1775446603408-XGGAZSY5PWP2KJ46V29Z/Soulflow+Peninsula+Sat+6+June.png",
+    image_url: "/images/events/soulflow-winter-day-retreat-at-peninsula-hot-sprin-saturday-6-june-2026.png",
   },
   {
     day: "08",
@@ -191,7 +191,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: true,
     excerpt: "Join our sound bath meditation under the stars. Experience the profound connection between the Earth and the Cosmos at our upcoming Celestial Sound Bath Journey . This isn't your typical indoor meditation. At the Stillness Reset Co. home studio in Glen Waverley , we invite you to lie back and look upward. Our unique clear-roof studio allows you to gaze directly at the moon and stars as you are enveloped in a sea of therapeutic sound. Through the power of frequency and intention, this one-hour immersion is designed to: Downregulate the nervous system for deep restoration. Harmonize your energetic field with the lunar cycle. Expand your awareness through heart-brain coherence.",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1777187204144-ZD23CLVJ6R88EBVY4OZ1/Sound+Bath+8+May+.jpg",
+    image_url: "/images/events/sound-bath-meditation-under-the-night-sky-sold-out-friday-8-may-2026.jpg",
   },
   {
     day: "03",
@@ -204,7 +204,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "A 3-hour immersion into hormonal health and nervous system regulation. Move beyond \"pushing through\" and learn to support your body with soft, effective, science-backed tools.",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1774431726349-YUASJS1SWMBP4CUURMFF/Quantum+Radiance+1.png",
+    image_url: "/images/events/workshop-1-sunday-3-may-2026.png",
   },
   {
     day: "26",
@@ -217,7 +217,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: true,
     excerpt: "Pause, reconnect, and nurture your inner self. Join our intimate women's circle to step out of the daily rush. Through guided meditation and restorative mindfulness practices, we will create a safe sanctuary for you to slow down, regulate, and cultivate profound self-love. Give yourself permission to just be .",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1777187585988-30IWVTRP96DJPG74FFLO/Women%E2%80%99s+%28Instagram+Post+%2845%29%29+%281%29.png",
+    image_url: "/images/events/women-s-circle-for-mindfulness-self-love-sold-out-sunday-26-april-2026.png",
   },
   {
     day: "11",
@@ -230,7 +230,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: false,
     excerpt: "",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1773039368909-TDYGECKWKEXV88E6IR8J/Pottery+Workshop.png",
+    image_url: "/images/events/pottery-workshop-soundhealing-with-dana-titin-saturday-11-april-2026.png",
   },
   {
     day: "21",
@@ -243,7 +243,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: true,
     excerpt: "",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1770710552098-2L0CDXN2Z8FC9KXEW3FJ/Soundbath+21+Mar.png",
+    image_url: "/images/events/sound-bath-meditation-at-high-st-holistic-preston--saturday-21-march-2026.png",
   },
   {
     day: "01",
@@ -256,7 +256,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: true,
     excerpt: "",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1764994332918-UUU8EHNY83MUHH8NA41A/Quiet+Earth+Day+Retreat+-+Portrait+%282%29.png",
+    image_url: "/images/events/quite-earth-day-retreat-second-session-sold-out-sunday-1-march-2026.png",
   },
   {
     day: "28",
@@ -269,7 +269,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: true,
     excerpt: "",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1764994332918-UUU8EHNY83MUHH8NA41A/Quiet+Earth+Day+Retreat+-+Portrait+%282%29.png",
+    image_url: "/images/events/quite-earth-day-retreat-sold-out-saturday-28-february-2026.png",
   },
   {
     day: "04",
@@ -282,7 +282,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: true,
     excerpt: "Join us for soulful weekend to rest, reconnect & return to your true self",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1752412633992-K3PQV470LIU00F01HWJG/event-image.png",
+    image_url: "/images/events/quiet-earth-yoga-retreat-sold-out-tue-4-nov-2025.png",
   },
   {
     day: "23",
@@ -295,7 +295,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: true,
     excerpt: "Step into a space of calm and healing. Let the sound guide you home to yourself.",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1753879563025-RSPDKJ8X8I33GS5A7D5Z/sound-bath-event.png",
+    image_url: "/images/events/sound-bath-meditation-with-titin-sold-out-saturday-23-august-2025.png",
   },
   {
     day: "25",
@@ -308,7 +308,7 @@ const PAST_EVENTS = [
     link: "https://www.trybooking.com",
     soldOut: true,
     excerpt: "To celebrate Mother’s Day, take a well-deserved break and treat yourself.",
-    image_url: "https://images.squarespace-cdn.com/content/v1/686d0c2861d9072cd139598e/1753881080234-VFE1C5E1NG8RNJJDI4VE/hight-tea-event.png",
+    image_url: "/images/events/high-tea-sold-out-sunday-25-may-2025.png",
   },
 ];
 
