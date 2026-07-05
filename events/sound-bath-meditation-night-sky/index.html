@@ -18,5 +18,21 @@
     observer.observe(document.body, { childList: true, subtree: true, attributes: true });
   })();
 </script>
+
+<script>
+  // Force the logo to navigate home, bypassing Next.js completely
+  document.addEventListener('click', function(e) {
+    var target = e.target;
+    while(target && target.tagName !== 'A') {
+      target = target.parentNode;
+    }
+    if (target && target.className && typeof target.className === 'string' && target.className.indexOf('Nav-module__e1xquq__logo') !== -1) {
+      e.preventDefault();
+      e.stopPropagation();
+      window.location.href = '/';
+    }
+  }, true); // Capture phase!
+</script>
 </body>
+
 </html>
