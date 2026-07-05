@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://www.stillnessresetco.com.au/sitemap.xml
