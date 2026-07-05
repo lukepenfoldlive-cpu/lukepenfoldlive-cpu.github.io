@@ -20,19 +20,28 @@
 </script>
 
 <script>
-  // Force the logo to navigate home, bypassing Next.js completely
-  document.addEventListener('click', function(e) {
-    var target = e.target;
-    while(target && target.tagName !== 'A') {
-      target = target.parentNode;
-    }
-    if (target && target.className && typeof target.className === 'string' && target.className.indexOf('Nav-module__e1xquq__logo') !== -1) {
-      e.preventDefault();
-      e.stopPropagation();
-      window.location.href = '/';
-    }
-  }, true); // Capture phase!
+  (function() {
+    // A relentless observer to ensure the logo always has an inline onclick that bypasses Next.js
+    var observer = new MutationObserver(function() {
+      var logos = document.querySelectorAll('.Nav-module__e1xquq__logo');
+      for (var i = 0; i < logos.length; i++) {
+        var logo = logos[i];
+        if (!logo.getAttribute('onclick')) {
+          logo.setAttribute('onclick', "window.location.href='/'; event.preventDefault(); event.stopPropagation(); return false;");
+        }
+      }
+    });
+    observer.observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ['class'] });
+    // Run once on load
+    window.addEventListener('DOMContentLoaded', function() {
+      var logos = document.querySelectorAll('.Nav-module__e1xquq__logo');
+      for (var i = 0; i < logos.length; i++) {
+        logos[i].setAttribute('onclick', "window.location.href='/'; event.preventDefault(); event.stopPropagation(); return false;");
+      }
+    });
+  })();
 </script>
+
 </body>
 
 </html>
